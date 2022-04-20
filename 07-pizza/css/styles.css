@@ -1,0 +1,85 @@
+header, main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(../images/header_image.webp);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    max-height: 300px;
+    color: white;
+    
+}
+
+
+main h1{
+    color:rgb(226, 0, 0);
+}
+
+main h2{
+    color:rgb(226, 0, 0);
+}
+
+main{
+    
+    margin: 0 auto;
+    text-align: left;
+    
+    
+}
+
+main button{
+    display: block;
+    border: solid 2px rgb(185, 0, 0);
+    border-radius: 8px;
+    background-color: rgb(255, 245, 139);
+    padding: .5rem;
+    margin: .5rem 0;
+    width: 50%;
+    color: rgb(226, 0, 0);
+    
+}
+
+#change_pizza button:hover{
+    cursor: pointer;
+    background-color: rgb(226, 0, 0);
+    color: rgb(255, 245, 139);
+
+}
+
+ul{
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+    margin: 0;
+    
+}
+li{
+    padding: 3px;
+    list-style: circle;
+    
+}
+main article{
+    float: left;
+    width: 50%;
+    
+}
+
+main aside{
+    float: left;
+    width: 40%;
+    
+}
+
+
+
+footer{
+    background-color: beige;
+    text-align: center;
+    font-size: large;
+    margin: 0 auto;
+    padding: 15px;
+    clear: both;
+    
+}
